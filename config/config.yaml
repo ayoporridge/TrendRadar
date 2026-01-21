@@ -85,28 +85,89 @@ rss:
   # - 不配置：使用全局 freshness_filter.max_age_days（默认 3 天）
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
+
+================================================================================
+
   feeds:
-    - id: "hacker-news"
-      name: "Hacker News"
-      url: "https://hnrss.org/frontpage"
-      # max_age_days: 1               # 示例：只推送1天内的文章
+    - id: "reddit-fountainpens"
+      name: "Reddit - Fountain Pens"
+      url: "https://www.reddit.com/r/fountainpens/.rss"
 
-    - id: "ruanyifeng"
-      name: "阮一峰的网络日志"
-      url: "http://www.ruanyifeng.com/blog/atom.xml"
-      # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
-    
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
+    - id: "reddit-pens"
+      name: "Reddit - Pens"
+      url: "https://www.reddit.com/r/pens/.rss"
 
-    # 自定义源示例
-    # - id: "custom-feed"
-    #   name: "自定义源"
-    #   url: "https://example.com/feed.xml"
-    #   enabled: false
-    #   max_age_days: 0               # 示例：禁用过滤，推送所有文章
+    - id: "reddit-handwriting"
+      name: "Reddit - Handwriting"
+      url: "https://www.reddit.com/r/handwriting/.rss"
+
+    - id: "reddit-calligraphy"
+      name: "Reddit - Calligraphy"
+      url: "https://www.reddit.com/r/Calligraphy/.rss"
+
+    - id: "reddit-penmanship"
+      name: "Reddit - Penmanship"
+      url: "https://www.reddit.com/r/penmanship/.rss"
+
+    - id: "reddit-notebooks"
+      name: "Reddit - Notebooks"
+      url: "https://www.reddit.com/r/notebooks/.rss"
+
+    - id: "reddit-journaling"
+      name: "Reddit - Journaling"
+      url: "https://www.reddit.com/r/Journaling/.rss"
+
+    - id: "reddit-bulletjournal"
+      name: "Reddit - Bullet Journal"
+      url: "https://www.reddit.com/r/bulletjournal/.rss"
+
+    - id: "reddit-goodnotes"
+      name: "Reddit - GoodNotes"
+      url: "https://www.reddit.com/r/GoodNotes/.rss"
+
+    - id: "reddit-notion"
+      name: "Reddit - Notion"
+      url: "https://www.reddit.com/r/Notion/.rss"
+
+    - id: "reddit-stationery"
+      name: "Reddit - Stationery"
+      url: "https://www.reddit.com/r/stationery/.rss"
+
+    - id: "reddit-thatstationerylife"
+      name: "Reddit - That Stationery Life"
+      url: "https://www.reddit.com/r/ThatStationeryLife/.rss"
+
+    - id: "reddit-mechanicalpencils"
+      name: "Reddit - Mechanicalpencils"
+      url: "https://www.reddit.com/r/mechanicalpencils/.rss"
+
+    - id: "reddit-edc"
+      name: "Reddit - EDC"
+      url: "https://www.reddit.com/r/edc/.rss"
+
+    - id: "reddit-edcexchange"
+      name: "Reddit - EDC Exchange"
+      url: "https://www.reddit.com/r/EDCexchange/.rss"
+
+    - id: "reddit-productivity"
+      name: "Reddit - Productivity"
+      url: "https://www.reddit.com/r/productivity/.rss"
+
+    - id: "reddit-notetaking"
+      name: "Reddit - Note Taking"
+      url: "https://www.reddit.com/r/notetaking/.rss"
+
+    - id: "reddit-getstudying"
+      name: "Reddit - Get Studying"
+      url: "https://www.reddit.com/r/GetStudying/.rss"
+
+    - id: "reddit-ink"
+      name: "Reddit - Ink"
+      url: "https://www.reddit.com/r/ink/.rss"
+
+    - id: "reddit-retro"
+      name: "Reddit - Retro"
+      url: "https://www.reddit.com/r/retro/.rss"
 
 
 # ===============================================================
