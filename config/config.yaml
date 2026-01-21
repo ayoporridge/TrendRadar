@@ -289,7 +289,7 @@ notification:
     enabled: true                    # 是否启用推送时间窗口控制
     start: "07:00"                    # 开始时间（北京时间）
     end: "18:00"                      # 结束时间（北京时间）
-    once_per_day: faslse                # true=窗口内只推送一次，false=窗口内每次执行都推送
+    once_per_day: false                # true=窗口内只推送一次，false=窗口内每次执行都推送
 
   # 推送渠道配置
   channels:
@@ -308,12 +308,11 @@ notification:
       chat_id: ""                     # Telegram Chat ID
 
     email:
-  from: ${{ secrets.SMTP_FROM_EMAIL }}
-  password: ${{ secrets.SMTP_PASSWORD }}
-  to: ${{ secrets.RECEIVE_EMAIL }}
-  smtp_server: ${{ secrets.SMTP_SERVER }}
-  smtp_port: ${{ secrets.SMTP_PORT }}
-
+      from: ${{ secrets.SMTP_FROM_EMAIL }}
+      password: ${{ secrets.SMTP_PASSWORD }}
+      to: ${{ secrets.RECEIVE_EMAIL }}
+      smtp_server: ${{ secrets.SMTP_SERVER }}
+      smtp_port: ${{ secrets.SMTP_PORT }}
 
     ntfy:
       server_url: "https://ntfy.sh"   # ntfy 服务器地址（可改为自托管）
