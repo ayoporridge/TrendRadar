@@ -306,11 +306,11 @@ notification:
       chat_id: ""                     # Telegram Chat ID
 
     email:
-      from: ${{ secrets.SMTP_FROM_EMAIL }}
-      password: ${{ secrets.SMTP_PASSWORD }}
-      to: ${{ secrets.RECEIVE_EMAIL }}
-      smtp_server: ${{ secrets.SMTP_SERVER }}
-      smtp_port: ${{ secrets.SMTP_PORT }}
+      from: ""
+      password: ""
+      to: ""
+      smtp_server: ""
+      smtp_port: ""
 
     ntfy:
       server_url: "https://ntfy.sh"   # ntfy 服务器地址（可改为自托管）
